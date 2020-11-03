@@ -7,13 +7,12 @@ Due to the widespread applications in real-world scenarios, metro ridership pred
 If you use this code for your research, please cite our papers [https://arxiv.org/abs/2001.04889](https://arxiv.org/abs/2001.04889) :
 
 ```
-@misc{liu2020physicalvirtual,
-    title={Physical-Virtual Collaboration Modeling for Intra-and Inter-Station Metro Ridership Prediction},
-    author={Lingbo Liu and Jingwen Chen and Hefeng Wu and Jiajie Zhen and Guanbin Li and Liang Lin},
-    year={2020},
-    eprint={2001.04889},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@article{liu2020physicalvirtual,
+  title={Physical-Virtual Collaboration Modeling for Intra-and Inter-Station Metro Ridership Prediction},
+  author={Lingbo Liu and Jingwen Chen and Hefeng Wu and Jiajie Zhen and Guanbin Li and Liang Lin},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2020},
+  publisher={IEEE}
 }
 ```
 

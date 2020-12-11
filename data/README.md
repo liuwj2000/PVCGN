@@ -1,6 +1,6 @@
 ## SHMetro & HZMetro Dataset
 
-In this work, we focus on the metro ridership prediction from 5:30 - 23:30. Specifically, we utilize the metro ridership (inflow/outflow) of the previous four time intervals (4x15m=60m) to predict the metro ridership (inflow/outflow) of future four time intervals (4x15m=60m) ::
+In this work, we focus on the metro ridership prediction from 5:30 - 23:30. Specifically, we utilize the metro ridership (inflow/outflow) of the previous four time intervals (15minutes x 4 = 60minutes) to predict the metro ridership (inflow/outflow) of future four time intervals (15minutes x 4 = 60minutes) :
 ```
 5:30-6:30 -- forecast -> 6:30-7:30
 5:45-6:45 -- forecast -> 6:45-7:45

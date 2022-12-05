@@ -1,14 +1,14 @@
 ## SHMetro & HZMetro Dataset
 
-In this work, we focus on the metro ridership prediction from 5:30 - 23:45. Specifically, we utilize the metro ridership (inflow/outflow) of the previous four time intervals (15minutes x 4 = 60minutes) to predict the metro ridership (inflow/outflow) of future four time intervals (15minutes x 4 = 60minutes) :
+In this work, we focus on the metro ridership prediction from 5:15 - 23:30. Specifically, we utilize the metro ridership (inflow/outflow) of the previous four time intervals (15minutes x 4 = 60minutes) to predict the metro ridership (inflow/outflow) of future four time intervals (15minutes x 4 = 60minutes) :
 ```
+5:15-6:15 -- forecast -> 6:15-7:15
 5:30-6:30 -- forecast -> 6:30-7:30
-5:45-6:45 -- forecast -> 6:45-7:45
 ...
+21:15-22:15 -- forecast -> 22:15-23:15
 21:30-22:30 -- forecast -> 22:30-23:30
-21:45-22:45 -- forecast -> 22:45-23:45
 ```
-Therefore, each day can be split into 66 time slices. For each dataset, we release six ```pkl``` files, three for metro ridership data, and three for metro graph information.
+Therefore, each day can be split into 66 time slices. For each dataset, we release six ```pkl``` files, three for metro ridership data, and three for metro graph information. In our timestamp files, the string 5:30 denotes the time interval from 5:15 to 5:30.
 
 ### 1. Metro Ridership
 In our work, each dataset is divided into a training set, a validation set, and a testing set.

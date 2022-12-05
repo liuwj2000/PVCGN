@@ -6,7 +6,7 @@ In this work, we focus on the metro ridership prediction from 5:30 - 23:45. Spec
 5:45-6:45 -- forecast -> 6:45-7:45
 ...
 21:30-22:30 -- forecast -> 22:30-23:30
-21:30-22:45 -- forecast -> 22:45-23:45
+21:45-22:45 -- forecast -> 22:45-23:45
 ```
 Therefore, each day can be split into 66 time slices. For each dataset, we release six ```pkl``` files, three for metro ridership data, and three for metro graph information.
 
